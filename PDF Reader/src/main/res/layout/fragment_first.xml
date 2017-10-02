@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.example.user.pdfjs.FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="186dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="90dp"
+        android:id="@+id/text"
+        android:text="PDF Reader"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="40dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:layout_width="217dp"
+        android:layout_height="165dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click menu to open or close a document"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="40dp"/>
+
+</FrameLayout>
